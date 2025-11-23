@@ -38,26 +38,40 @@ import watchJogTrack from "./assets/watchJogTrack.jpg";
 
 const Home = () => {
   const triggerRef = useRef(null);
+  const footerRef = useRef(null);
   const [showBanner, setShowBanner] = useState(false);
+const [BannerActive, setBannerActive] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const entry = entries[0];
+useEffect(() => {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
 
-        if (entry.isIntersecting) {
-          setShowBanner(true);
+        // 1. User reaches trigger section for the first time
+        if (entry.target === triggerRef.current && entry.isIntersecting) {
+          setBannerActive(true);
+          setShowBanner(true); // show banner
         }
-      },
-      { threshold: 0.2 }
-    );
 
-    if (triggerRef.current) {
-      observer.observe(triggerRef.current);
-    }
+        // 2. Footer enters view -> always hide banner
+        if (entry.target === footerRef.current && entry.isIntersecting) {
+          setShowBanner(false);
+        }
 
-    return () => observer.disconnect();
-  }, []);
+        // 3. Footer leaves view -> show IF user already activated it
+        if (entry.target === footerRef.current && !entry.isIntersecting) {
+          if (BannerActive) setShowBanner(true);
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  if (triggerRef.current) observer.observe(triggerRef.current);
+  if (footerRef.current) observer.observe(footerRef.current);
+
+  return () => observer.disconnect();
+}, [BannerActive]);
 
   return (
     <div className="min-h-screen w-full overflow-x-hidden">
@@ -92,12 +106,12 @@ const Home = () => {
             <img
               src={whatsAppReview}
               alt="whatsapp screenshot "
-              className="w-100"
+              className="w-100 h-full"
             />
             <img
               src={whatsAppReview1}
               alt="whatsapp screenshot"
-              className="w-100"
+              className="w-100 h-full"
             />
           </div>
 
@@ -526,8 +540,8 @@ const Home = () => {
             <p className="text-white text-3xl font-semibold ">
               ✅Pay On Delivery (See Before You pay)
             </p>
-            <div className="grid md:grid-cols-2 gap-10 my-10 justify-center">
-              <img src={blueWatch} alt="black smart-watch" className="w-80" />
+            <div className="grid md:grid-cols-2 gap-10 md:gap-0 my-10 items-center justify-items-center">
+              <img src={blueWatch} alt="blue smart-watch" className="w-80" />
               <img src={blackWatch} alt="black smart-watch" className="w-80" />
             </div>
 
@@ -756,7 +770,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <footer>
+      <footer ref={footerRef}>
         <div className="flex flex-col justify-center items-center gap-5 pt-10 pb-5 bg-white px-4 md:px-0">
           <div className="flex justify-center space-x-5">
             <a
@@ -790,7 +804,7 @@ const Home = () => {
           </div>
           <hr className="w-full text-gray-200" />
           <p className="text-sm text-gray-600">
-            Copyright &copy;{new Date().getFullYear()}. All rights reserved{" "}
+            Copyright &copy;{new Date().getFullYear()}. All rights reserved{" "}.
           </p>
         </div>
       </footer>
