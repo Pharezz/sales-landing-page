@@ -48,7 +48,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Buy Button */}
-        <button className="hidden md:block px-7 py-2 rounded-2xl bg-blue-700 text-white cursor-pointer hover:bg-gray-700 transition-all duration-500 ease-in-out ">
+        <button className="hidden md:block px-7 py-2 rounded-2xl bg-red-600 text-white cursor-pointer hover:bg-gray-700 transition-all duration-500 ease-in-out ">
           Buy it Now
         </button>
 
@@ -89,8 +89,8 @@ const Navbar = () => {
             </a>
           ))}
 
-          <button className="mt-3 px-6 py-3 rounded-2xl bg-blue-700 text-white w-full">
-            Buy it Now
+          <button className="mt-3 px-6 py-3 rounded-2xl bg-red-600 text-white w-full">
+            Click to Buy it Now
           </button>
         </div>
       </div>
