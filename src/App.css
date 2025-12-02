@@ -2,8 +2,18 @@
 
 @import "tailwindcss";
 
-@theme {
+:root {
+  --primary: #1D4ED8; /* blue-700 */
+  --secondary: #fd1818; /* red-600 */
+  --accent: #f3cf00; /* amber-500 */
+}
+
+@theme inline {
   --font-sans: "Poppins", sans-serif;
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
 }
 
 @layer components{

@@ -1,0 +1,289 @@
+{
+  "branding": {
+    "logo_text": "Your Logo",
+    "primary_color": "#1D4ED8",
+    "secondary_color": "#FD1818",
+    "accent_color": "#f3cf00"
+  }, 
+  "hero": {
+    "enabled": true,
+    "title": "Upgrade Your Style with This Sleek Ultra Smart-watch!",
+    "subtitle": "50% OFF (Save Money) + FREE Gift! + Very Fast Delivery",
+    "sold_text": "24,850+ Smart-watches Already Sold To Satisfied Customers",
+    "monthly_sales": "Monthly Sales: 2,458 pieces already sold this month",
+    "whatsapp_title": "What Other Customers Like You Are Saying on WhatsApp",
+    "images": {
+      "product": "assets/the-watch.png",
+      "whatsapp1": "assets/whatsapp-review.jpg",
+      "whatsapp2": "assets/whatsapp-review2.jpg"
+    }
+  },
+  "product": {
+    "enabled": true,
+    "title": "THE ULTRA SMART-WATCH",
+    "description": "This smart-watch is built specifically for the modern man and woman. Whether you’re going out or staying in, it looks sharp and classy. People will always ask you, “Where did you buy this from\"",
+    "usage_title": "How People Like You Are Using Their Own Smart-watch",
+    "images": {
+      "black_watch": "assets/apple-watch-3.png"
+    },
+    "usage": [
+      {
+        "image": "assets/watchSleepTrack.webp",
+        "caption": "John tracks his resting heartrate and sleep rate with his smartwatch"
+      },
+      {
+        "image": "assets/watchJogTrack.jpg",
+        "caption": "Jane monitors her exercising routine via her smartwatch"
+      }
+    ]
+  },
+  "offer": {
+    "enabled": true,
+    "title": "Here is a High-Quality Gift For You – Only For Today",
+    "description1": "We love to give our customers the best and everything they need to look good and shine when they go out. We are currently giving out this item FREE of Charge. Yes, you read right!",
+    "description2": "You get FREE 3 in 1 USB Charging Cable with your Smart-watch",
+    "design_title": "Sleek Design That Turns Heads",
+    "images": {
+      "gift": "assets/charge-cord2.webp"
+    }
+  },
+  "how_it_works": {
+    "enabled": true,
+    "title": "HOW IT WORKS",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus ipsam consequatur autem! Placeat exercitationem distinctio sint voluptas. Ab voluptas officiis nihil, sint ullam quaerat minima?",
+    "steps": [
+      {
+        "image": "assets/smartwatch.png",
+        "title": "Connect Your Device",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel officia quod ullam in veritatis reprehenderit accusamus maiores itaque nulla. Culpa?"
+      },
+      {
+        "image": "assets/setting.png",
+        "title": "Configure it",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel officia quod ullam in veritatis reprehenderit accusamus maiores itaque nulla. Culpa?"
+      },
+      {
+        "image": "assets/trophy.png",
+        "title": "Yess! Connected",
+        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel officia quod ullam in veritatis reprehenderit accusamus maiores itaque nulla. Culpa?"
+      }
+    ]
+  },
+  "features": {
+    "enabled": true,
+    "title": "THE BENEFITS",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus ipsam consequatur autem! Placeat exercitationem distinctio sint voluptas. Ab voluptas officiis nihil, sint ullam quaerat minima?",
+    "benefits": [
+      {
+        "icon": "MapPin",
+        "title": "GPS Tracking",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Heartbeat Analysis",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      },
+      {
+        "icon": "LockKeyhole",
+        "title": "Security Check",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Innovative ideas",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      },
+      {
+        "icon": "Tag",
+        "title": "Save Your Bills",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Proven Technology",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      }
+    ]
+  },
+  "more_features": {
+    "enabled": true,
+    "features_left": [
+      {
+        "icon": "Key",
+        "title": "Fast and Secure",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      },
+      {
+        "icon": "ThumbsUp",
+        "title": "Stay in Touch",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      },
+      {
+        "icon": "Megaphone",
+        "title": "Voice Assistant",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      }
+    ],
+    "image": "assets/apple-watch-3.png",
+    "features_right": [
+      {
+        "icon": "User",
+        "title": "Designed for You",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      },
+      {
+        "icon": "AppWindow",
+        "title": "Apps You Love",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      },
+      {
+        "icon": "Watch",
+        "title": "Precise Timepiece",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam maiores deserunt excepturi inventore esse!"
+      }
+    ],
+    "compatibilities": [
+      "Compatible with all devices",
+      "Android and IOS Support",
+      "Activity and Health Tracker",
+      "Read and reply to messages"
+    ]
+  },
+  "buy_offer": {
+    "enabled": true,
+    "title": "Choose Your Smart-watch",
+    "subtitle": "Most people buy the Blue or Black Smart-watch because it Saves More Money",
+    "black_offer": {
+      "title": "🔥 BLACK SMARTWATCH – Today’s Special Deal",
+      "combo_title": "Get This Powerful Combo:",
+      "items": [
+        "1 Black Smart-watch",
+        "1 FREE 3-IN-1 Magnetic, Fast-Charging USB Cable (BLACK) (Worth $200)"
+        
+      ],
+      "image": "assets/apple-watch-3.png",
+      "old_price": "$700",
+      "new_price": "$200 Only For Today",
+
+      "celebration_text": "We Are Celebrating 1,000+ Orders! To say thank you, we’re giving this BIG discount for a limited time only. Order Now (Offer valid while stock lasts. After This, It will Go Back to Original Price)",
+      "stock_left": "Only 4 packages left in stock – Order Now (Offer valid while stock lasts. After This, It will Go Back to Original Price)"
+    },
+    "bundle_offer": {
+      "enabled": true,
+      "title": "🔥 BLUE AND BLACK BUNDLE – Today’s Special Deal",
+      "combo_title": "Get This Powerful Combo:",
+      "items": [
+        "1 Blue, 1 Black Smart-watch",
+        "1 FREE 3-IN-1 Magnetic, Fast-Charging USB Cable (BLACK) (Worth $200)"
+        
+      ],
+      "images": [
+        "assets/the-watch.png",
+        "assets/apple-watch-3.png"
+      ],
+      "old_price": "$1,000",
+      "new_price": "$500 Only For Today",
+  
+      "celebration_text": "We Are Celebrating 1,000+ Orders! To say thank you, we’re giving this BIG discount for a limited time only. Order Now (Offer valid while stock lasts. After This, It will Go Back to Original Price)",
+      "stock_left": "Only 6 packages left in stock – Order Now (Offer valid while stock lasts. After This, It will Go Back to Original Price)"
+    },
+    "delivery_time": "Order now to receive between the next 4-24 Hours"
+  },
+  "reviews": {
+    "enabled": true,
+    "title": "REVIEWS",
+    "description": "Don't take our word for it; see what customers who have purchased this watch are saying about it!",
+    "reviews": [
+      {
+        "quote": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\"",
+        "author": "John"
+      },
+      {
+        "quote": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\"",
+        "author": "Jane"
+      },
+      {
+        "quote": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\"",
+        "author": "Laura"
+      },
+      {
+        "quote": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\"",
+        "author": "Blake"
+      },
+      {
+        "quote": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\"",
+        "author": "Sonia"
+      },
+      {
+        "quote": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\"",
+        "author": "Martha"
+      }
+    ]
+  },
+  "faqs": {
+    "enabled": true,
+    "title": "FAQs",
+    "description": "Got questions? We've got answers. If you some other questions, feel free to send us an email to hello@example.com",
+    "email": "hello@example.com",
+    "faqs": [
+      {
+        "question": "Whats total cost of product?",
+        "answer": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\""
+      },
+      {
+        "question": "Do you deliver worldwide?",
+        "answer": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\""
+      },
+      {
+        "question": "Will I get a refund if I don't like the product?",
+        "answer": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\""
+      },
+      {
+        "question": "Will I get a discount for bulk purchase?",
+        "answer": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\""
+      },
+      {
+        "question": "How does the product work?",
+        "answer": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\""
+      },
+      {
+        "question": "Can I pay in installments?",
+        "answer": "\"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus adipisci minima id magni, ipsam nam aspernatur fuga quo iure excepturi, modi qui nesciunt eum consequatur\""
+      }
+    ]
+  },
+  "contact": {
+    "enabled": true,
+    "title": "GET IN TOUCH",
+    "address": "Your Address",
+    "phone": "+234 Your Phone number",
+    "email": "Support@youremail.com"
+  },
+  "footer": {
+    "enabled": true,
+    "social_links": [
+      {
+        "name": "Facebook",
+        "url": "",
+        "icon": "FacebookIcon"
+      },
+      {
+        "name": "Twitter",
+        "url": "",
+        "icon": "Twitter"
+      },
+      {
+        "name": "Instagram",
+        "url": "",
+        "icon": "Instagram"
+      },
+      {
+        "name": "Linkedin",
+        "url": "",
+        "icon": "Linkedin"
+      }
+    ],
+    "copyright": "Copyright ©2025. All rights reserved."
+  }
+}
